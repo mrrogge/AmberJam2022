@@ -21,5 +21,7 @@ class App extends core.App {
         hxd.Window.getInstance().resize(VIEW_WIDTH, VIEW_HEIGHT);
         // hxd.Window.getInstance().displayMode = Fullscreen;
 
+        this.mainProcess.addChild(new game.process.GameProcess(this.mainProcess));
+
     }
 }
