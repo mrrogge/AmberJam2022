@@ -1,0 +1,8 @@
+.haxelib
+bin/
+
+ref/
+captures/
+
+# resources to ignore for the time being
+src/res/img/__ignore/

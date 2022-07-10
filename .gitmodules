@@ -1,0 +1,3 @@
+[submodule "heat_core"]
+	path = heat_core
+	url = git@github.com:mrrogge/heat_core.git
